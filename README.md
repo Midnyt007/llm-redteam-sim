@@ -13,7 +13,7 @@ pip install -e .
 # 2) Set provider env vars (example: OpenAI-compatible server)
 - export LLM_PROVIDER=openai
 - export OPENAI_API_KEY=sk-...
-# optionally set OPENAI_BASE_URL if you're pointing at a compatible endpoint
+optionally set OPENAI_BASE_URL if you're pointing at a compatible endpoint
 
 # 3) Run harness
 python -m llm_redteam_sim.run \
