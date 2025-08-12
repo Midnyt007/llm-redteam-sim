@@ -27,6 +27,7 @@ python -m llm_redteam_sim.run \
 # 4) Open report
 open out/latest/report.md
 
-export LLM_PROVIDER=ollama
-export OLLAMA_BASE_URL=http://localhost:11434
-python -m llm_redteam_sim.run --model llama3.1:8b --out out/ollama
+# 5) For local models via Ollama:
+- export LLM_PROVIDER=ollama
+- export OLLAMA_BASE_URL=http://localhost:11434
+- python -m llm_redteam_sim.run --model llama3.1:8b --out out/ollama
